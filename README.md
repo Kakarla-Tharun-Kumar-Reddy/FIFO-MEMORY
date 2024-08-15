@@ -55,6 +55,8 @@ The main module, `FIFO`, handles data storage and retrieval, ensuring that data 
 3. Full and Empty Conditions:
    - The FIFO is considered full when the next write operation would cause `wraddr` to equal `rdaddr`.
    - The FIFO is considered empty when `wraddr` equals `rdaddr`.
+### Output Image
+![Screenshot 2024-08-15 115327](https://github.com/user-attachments/assets/50499dfe-beab-4096-9dc2-da7b588d9b1e)
 
 ### Testbench
 
